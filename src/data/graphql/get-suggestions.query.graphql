@@ -1,0 +1,12 @@
+query GetSuggestions {
+	Suggestions {
+		id
+		created_at
+		author
+		image
+		link
+		suggested_by
+		title
+		updated_at
+	}
+}
